@@ -1,0 +1,56 @@
+.bg-image {
+    background-image: url('../images/bannerbg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar-custom {
+    border-radius: 15px;
+  }
+  .footerbg{
+    background-color:#9a3d6e;
+    }
+    .text-white {
+      color: #fff !important;
+    }
+    .card-custom {
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      padding: 20px;
+      margin-bottom: 20px;
+  }
+  .text-green {
+      color: green;
+  }
+  .text-red {
+      color: red;
+  }
+  .price-original {
+      text-decoration: line-through;
+  }
+  .btn-purple{
+    background-color:#9a3d6e;
+    color:white;
+    border: 1px solid #9a3d6e
+  }
+  .bg-purple{
+    background-color:#9a3d6e;
+
+  }
+  .hover-effect img {
+    transition: transform 0.3s ease;
+  }
+  
+  .hover-effect:hover img {
+    transform: scale(1.1);
+  }
+  .inline-inputs {
+    display: flex;
+    gap: 10px;
+  }
+  .inline-inputs .form-control {
+    flex: 1;
+  }
